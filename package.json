@@ -1,0 +1,36 @@
+{
+  "name": "suffix-array",
+  "version": "0.1.0",
+  "description": "Rename duplicates in an array object",
+  "file": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "npx jest",
+    "pretest": "npm run build",
+    "prepublishOnly": "npm test"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.2"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "keywords": [
+    "array",
+    "duplicate",
+    "suffix"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nghiepit/suffix-array.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nghiepit/suffix-array/issues"
+  },
+  "homepage": "https://github.com/nghiepit/suffix-array",
+  "author": "Nghiep <me@nghiep.dev>",
+  "license": "MIT"
+}
