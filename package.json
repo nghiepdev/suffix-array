@@ -1,6 +1,6 @@
 {
   "name": "suffix-array",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Rename duplicates in an array object",
   "type": "module",
   "source": "./index.ts",
