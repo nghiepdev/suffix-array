@@ -4,18 +4,19 @@
   "description": "Rename duplicates in an array object",
   "type": "module",
   "source": "./index.ts",
-  "types": "./dist/index.d.ts",
   "exports": {
     "require": "./dist/index.cjs",
     "default": "./dist/index.modern.js"
   },
   "main": "./dist/index.cjs",
   "module": "./dist/index.module.js",
+  "unpkg": "./dist/index.umd.js",
   "files": [
     "dist"
   ],
+  "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "npx microbundle --strict --no-sourcemap --format=modern,esm,cjs",
+    "build": "npx microbundle --strict --no-sourcemap",
     "test": "npx jest",
     "pretest": "npm run build",
     "prepublishOnly": "npm test"
