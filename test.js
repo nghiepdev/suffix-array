@@ -1,4 +1,4 @@
-const {suffixArrayObject} = require('./index');
+const {suffixArrayObject} = require('./dist');
 
 test('just works', () => {
   expect(
